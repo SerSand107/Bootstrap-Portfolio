@@ -1,4 +1,26 @@
+body {
+    /* background: #4681b7; */
+    background: url("assets/images/tileable_wood_texture.jpg");
+}
+
 .navbar {
     margin-bottom:0;
     border-radius:0;
+}
+
+img {
+    float:left;
+    margin-right: 10px;
+
+}
+
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
 }
